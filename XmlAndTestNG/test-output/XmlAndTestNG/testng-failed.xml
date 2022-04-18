@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [XmlAndTestNG]">
+  <test thread-count="5" name="XMLtest(failed)">
+    <classes>
+      <class name="XMLtest.xmlPractice">
+        <methods>
+          <include name="homepage"/>
+        </methods>
+      </class> <!-- XMLtest.xmlPractice -->
+    </classes>
+  </test> <!-- XMLtest(failed) -->
+</suite> <!-- Failed suite [XmlAndTestNG] -->

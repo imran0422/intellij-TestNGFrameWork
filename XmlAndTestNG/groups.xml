@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="test">
+     <groups>
+        <run>
+          <include name = "Smoke"/>
+        </run>
+     </groups>
+    <classes>
+      <class name="test.tracking_TrackandHistoryTest"/>
+      <class name="test.tracking_ChangeDeliveryTest"/>
+      <class name="test.loginPageTest"/>
+    </classes>
+  </test>
+</suite> 
