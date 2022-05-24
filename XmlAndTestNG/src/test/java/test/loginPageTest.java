@@ -11,6 +11,7 @@ public class loginPageTest extends TestBase {
 	@Test (groups = {"Smoke"})
 	public void loginTest() throws Exception  {
 		getActions().getLogin("nahid1243", "kingkong1234@");
+
 	}
 
 }
